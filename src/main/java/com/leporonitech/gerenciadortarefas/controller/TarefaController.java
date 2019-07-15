@@ -93,7 +93,7 @@ public class TarefaController {
 		if (result.hasErrors()) {
 			mv.setViewName("tarefas/alterar");
 			mv.addObject(tarefa);
-		} else {
+		} else {				
 			mv.setViewName("redirect:/tarefas/listar");
 			tarefaRepository.save(tarefa);
 		}

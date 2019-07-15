@@ -19,8 +19,8 @@
 						th:if="${#fields.hasErrors('titulo')}">
 						<label th:errors="*{titulo}" class="validation-message"></label>
 					</div>
-					<label>Título:</label> <input type="text"
-						class="form-control" th:field="*{titulo}">
+					<label>Título:</label> 
+					<input type="text" class="form-control" th:field="*{titulo}">
 				</div>
 			</div>
 
@@ -30,8 +30,8 @@
 						th:if="${#fields.hasErrors('descricao')}">
 						<label th:errors="*{descricao}" class="validation-message"></label>
 					</div>
-					<label>Descrição:</label> <input type="text" 
-						class="form-control" th:field="*{descricao}">
+					<label>Descrição:</label> 
+					<input type="text" class="form-control" th:field="*{descricao}">
 				</div>
 			</div>
 
@@ -41,8 +41,8 @@
 						th:if="${#fields.hasErrors('dataExpiracao')}">
 						<label th:errors="*{dataExpiracao}" class="validation-message"></label>
 					</div>
-					<label>Data de Expiração:</label> <input type="date"
-						class="form-control" th:field="*{dataExpiracao}">
+					<label>Data de Expiração:</label> 
+					<input type="date" class="form-control" th:field="*{dataExpiracao}">
 				</div>
 			</div>
 			<button type="submit" class="btn btn-primary">Salvar!</button>
